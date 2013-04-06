@@ -1,0 +1,23 @@
+{
+  "name": "Hello World!",
+  "version": "1.2",
+  "manifest_version": 2,
+  "description": "My first Chrome extension.",
+  "homepage_url": "http://www.whensit.com",
+  "background_page": "background.html",
+  "permissions": [
+    "http://whensit.herokuapp.com/*"
+    ],
+  "icons": {
+    "16" : "images/icon.png",
+    "48" : "images/icon.png",
+    "128" : "images/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_title": "[INSERT WEB SITE NAME HERE] Fetcher",
+
+    "default_popup": "popup.html"
+  }
+} 
+
